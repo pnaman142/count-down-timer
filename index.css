@@ -1,0 +1,41 @@
+body {
+    background-color: forestgreen;
+}
+.main {
+    margin: 30vh 30vw;
+    font-family: sans-serif;
+    width: 30vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type=text] {
+    width: 20vw;
+    height: 5vh;
+    border: 2px solid saddlebrown;
+    border-radius: 2vmax;
+    background-color: lightgray;
+    text-align: center;
+    color: sienna;
+}
+
+input[type=text]:focus {
+    outline: 2px solid rgb(110, 60, 25);
+    border-radius: 2vmax;
+    color: sandybrown;
+    opacity: 1; 
+    text-align: center;
+}
+
+::placeholder { 
+    color: sienna;
+    opacity: 1; 
+    text-align: center;
+  }
+
+h1 {
+    color: goldenrod;
+}
